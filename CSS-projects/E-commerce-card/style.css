@@ -1,0 +1,148 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background-color:#001422 ;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+main{
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.circle{
+  border-radius: 100%;
+  position: absolute;
+}
+
+.circle1{
+  width: 120px;
+  height: 120px;
+  background-image: radial-gradient(69.62% 69.62% at 50.00% 50.00%, #EA8BFA 0%, #7526F5 100%);
+  top: -50px;
+  left: -50px;
+  
+}
+
+.circle2{
+  width: 360px;
+  height: 360px;
+  background-image: radial-gradient(63.62% 63.62% at 50% 50%, #FF00C7 0%, #BD95FF 0.01%, #A661FF 32.29%, #6100FF 98.59%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;;
+  top: -125px;
+  right: -260px;
+  
+}
+
+.circle3{
+  width: 200px;
+  height: 220px;
+  background-image: radial-gradient(67.47% 67.47% at 50% 50%, #FED0FF 0%, #7F00FF 100%);
+  bottom: -100px;
+  left: -100px;
+}
+
+.card-container{
+  position: relative;
+}
+
+.card{
+  max-width : 405.344px;
+  background-image: linear-gradient(151.53deg,rgba(255, 255, 255, 0.4) 6.01%, rgba(255, 255, 255, 0.1) 92.61%);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 18px;
+}
+
+.card-content{
+  border: 0.74px solid #FFFFFF4D;
+  border-radius: 10px;
+}
+
+.thumbnail{
+  width: 100%;
+}
+
+.card-text{
+  padding: 24px 18px;
+}
+
+.tag-heart-container{
+  display: flex;
+  justify-content: space-between;
+  /* padding-inline: 18px; */
+}
+
+.tag{
+  color:  #FFD147;
+  padding-inline: 2px 6px;
+  background-color: #F1C6443D;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+}
+
+.card-title{
+  /* padding-inline: 18px; */
+  font-weight: 700;
+}
+
+.card-subtitle{
+  /* padding-inline: 18px; */
+  font: size 12px;
+  font-weight: 500;
+}
+
+.rating-value{
+  color: #F1C644;
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+.rating-count{
+  color: #DBDBDB;
+  font-weight: 400px;
+  font-size: 13px;
+}
+
+.star-rating{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-button{
+  width: 100%;
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding-block: 30px;
+  font-size: 18px;
+  font-family: inherit;
+  font-weight: 400;
+  border-top: 1px solid #FFFFFF4D;
+  cursor: pointer;
+  opacity: 0.8;
+
+}
+
+.tag-heart-container img{
+  cursor: pointer;
+}
+
+.card-button:hover{
+  opacity: 1;
+}
+
+
+  
+  
+  
